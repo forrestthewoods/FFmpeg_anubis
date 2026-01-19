@@ -40,9 +40,13 @@
 #define SCHANNEL_INITIAL_BUFFER_SIZE   4096
 #define SCHANNEL_FREE_BUFFER_SIZE      1024
 
-/* mingw does not define this symbol */
+/* mingw does not define these symbols */
 #ifndef SECBUFFER_ALERT
 #define SECBUFFER_ALERT                17
+#endif
+
+#ifndef SECPKG_ATTR_DTLS_MTU
+#define SECPKG_ATTR_DTLS_MTU           34
 #endif
 
 /* This is the name used for the private key in the MS Keystore.
