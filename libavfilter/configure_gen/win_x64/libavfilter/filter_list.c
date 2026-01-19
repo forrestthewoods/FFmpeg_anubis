@@ -325,7 +325,6 @@ static const FFFilter * const filter_list[] = {
     &ff_vf_pixscope,
     &ff_vf_pp7,
     &ff_vf_premultiply,
-    &ff_vf_premultiply_dynamic,
     &ff_vf_prewitt,
     &ff_vf_pseudocolor,
     &ff_vf_psnr,
