@@ -1,9 +1,8 @@
-static const FFCodecParser * const parser_list[] = {
+static const AVCodecParser * const parser_list[] = {
     &ff_aac_parser,
     &ff_aac_latm_parser,
     &ff_ac3_parser,
     &ff_adx_parser,
-    &ff_ahx_parser,
     &ff_amr_parser,
     &ff_apv_parser,
     &ff_av1_parser,
@@ -39,7 +38,6 @@ static const FFCodecParser * const parser_list[] = {
     &ff_ipu_parser,
     &ff_jpeg2000_parser,
     &ff_jpegxl_parser,
-    &ff_jpegxs_parser,
     &ff_misc4_parser,
     &ff_mjpeg_parser,
     &ff_mlp_parser,
@@ -47,7 +45,6 @@ static const FFCodecParser * const parser_list[] = {
     &ff_mpegaudio_parser,
     &ff_mpegvideo_parser,
     &ff_opus_parser,
-    &ff_prores_parser,
     &ff_png_parser,
     &ff_pnm_parser,
     &ff_prores_raw_parser,
